@@ -46,3 +46,16 @@ Anyone can Use this in their Favour by Using Custom tools, Office Applications, 
 For Finding a Hash: <code>cat csv_file.csv |grep '6161b0a284159565a0f7d5df2dd2698b5f87906cd91ff5322caf179b451f5a41'</code><br>
 For Finding a Password: <code>cat csv_file.csv |grep 'kevin1'</code><br>
 For Finding Hashes/Passwords with Same Algorithm: <code>cat csv_file.csv |grep 'md5'</code><br>
+
+<h3>csv_hash_parser.sh</h3>
+This is Just a Simple Bash Script Implementation of what is Shown Above,<br>
+<code>./csv_hash_parser.sh csv_file.csv b96e47cc910f7e99b3fd78142da92034c9f6fa57bf9a21a7152cf8fe90cb87f4</code>
+<BR>
+<code>
+        <pre>
+[-]The Hashing Algorithm is sha256
+[-]Salt is -
+[+]Password: kevin1
+        </pre>
+</code>
+Any Suggestions will be Minded!
