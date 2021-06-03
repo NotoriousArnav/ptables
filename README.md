@@ -39,3 +39,10 @@ optional arguments:
                         (Default: MD5)
 </code>
 </pre>
+
+<h3>Using the Output</h3>
+Since, all the Hashes are Saved as <code>kevin1,sha256,b96e47cc910f7e99b3fd78142da92034c9f6fa57bf9a21a7152cf8fe90cb87f4,-</code>, where First Column is Password, Second Algorithm, Third Hash and Fouth Salt<br>
+Anyone can Use this in their Favour by Using Custom tools, Office Applications, or Even Grep in Bash shell!<br>
+For Finding a Hash: <code>cat csv_file.csv |grep '6161b0a284159565a0f7d5df2dd2698b5f87906cd91ff5322caf179b451f5a41'</code><br>
+For Finding a Password: <code>cat csv_file.csv |grep 'kevin1'</code><br>
+For Finding Hashes/Passwords with Same Algorithm: <code>cat csv_file.csv |grep 'md5'</code><br>
